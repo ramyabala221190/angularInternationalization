@@ -1,0 +1,12 @@
+{
+  "locale": "en-US",
+  "translations": {
+    "i18nlogo": "This is the i18n image",
+    "8319803481649412831": "Welcome to Angular i18n Application",
+    "productTitle": "Title",
+    "7681699300014797061": "Price",
+    "6604153755411656739": "Rating",
+    "6008077081242907671": "Last Updated",
+    "6452187330042952969": "There are {$productsLength} products displayed on this page"
+  }
+}

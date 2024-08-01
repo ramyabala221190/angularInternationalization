@@ -1,0 +1,11 @@
+img{
+    width:20%;
+    height:auto;
+    max-width: 100%;
+}
+
+.image-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
