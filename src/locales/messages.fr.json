@@ -3,6 +3,10 @@
   "translations": {
     "i18nlogo": "C'est l'image du i18n",
     "8319803481649412831": "Bienvenue dans l'application Angular i18n",
+    "3114928174548054702": "la provision: {$ICU}",
+    "7032966666653095420": "{VAR_PLURAL, plural, =0 {nul} =1 {ne durera pas longtemps} =2 {ne durera pas longtemps} few {Limitée} other {Suffisant}}",
+    "1093385495604437563": "Le produit est classé comme : ({$ICU})",
+    "7022696840347012521": "{VAR_SELECT, select, 1 {pauvre} 2 {Équitable} 3 {Bien} 4 {Très bien} 5 {Excellent}}",
     "productTitle": "Titre",
     "7681699300014797061": "Prix",
     "6604153755411656739": "Notation",

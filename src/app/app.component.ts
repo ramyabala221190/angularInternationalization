@@ -31,9 +31,14 @@ headers=[
 ]
 
 ngOnInit(){
-  this.products$=this.productService.getProducts().pipe(
+  this.products$=this.productService.getProducts().pipe( 
     map((response:any)=>{
       this.infoMessage= $localize `There are ${response.products.length}:productsLength: products displayed on this page`
+      response.products=response.products.map((product:any)=>{
+       console.log(product.stock)
+       product.rating=Math.round(product.rating);
+       return product;
+      })
       return response.products;
     }))
 }

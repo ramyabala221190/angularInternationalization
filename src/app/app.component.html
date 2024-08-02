@@ -27,13 +27,14 @@
     <tbody>
         <tr *ngFor="let product of products">
             <td class="image-list">
+                <label i18n>Stock: {product.stock,plural, =0{Nill} =1{Wont last long} =2{Wont last long} few{Limited} other{Sufficient}}</label>
                 <ng-container *ngFor="let image of product.images">
                     <img class="img-fluid rounded" [src]="image" alt="{{product.description}}">
                 </ng-container>
             </td>
             <td>{{product.title}}</td>
             <td>{{product.price|currency}}</td>
-            <td>{{product.rating}}</td>
+            <td i18n>Product is rated as : ({product.rating, select, 1{poor} 2{Fair} 3{Good} 4{Very Good} 5{Excellent}})</td>
             <td>{{product.meta?.updatedAt|date:'fullDate'}}</td>
         </tr>
     </tbody>
